@@ -1,8 +1,26 @@
 aid: ctrl-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ctrl-labs.png
 name: CTRL-labs *
-description: 'CTRL-labs * is a company surfaced as a portfolio company of gv, matrix-partners, spark-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'CTRL-labs was a neurotechnology company founded in 2015 in New York City (originally
+  Cognescent) by Thomas Reardon, Patrick Kaifosh, and Tim Machado, building a non-invasive neural
+  interface: a wrist-worn band that reads surface electromyography (sEMG) signals from motor neurons
+  to decode intended hand and finger movements for human-computer interaction. Its developer hardware
+  was the CTRL-kit, and it acquired the Myo armband patents from North. In fall 2019 CTRL-labs was
+  acquired by Facebook and folded into Facebook (now Meta) Reality Labs, where the technology became
+  the basis of Meta''s neuromotor wristband for AR glasses (detailed in a July 2025 Nature paper).
+  The company no longer operates as an independent entity and publishes no public API, SDK, or developer
+  platform; this record is retained as an acquired-company lead.'
 url: https://raw.githubusercontent.com/api-evangelist/ctrl-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,25 @@ x-backed-by:
 - spark-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: meta
+x-acquired-year: 2019
+x-enrichment-note: 'Defunct as an independent company; absorbed into Meta Reality Labs in 2019. No
+  live website (ctrl-labs.com serves only a static memorial page via CloudFront), no public API, no
+  first-party SDK/package (npm/PyPI none; the github.com/ctrl-labs org holds only archived third-party
+  tooling forks). No API artifacts could be searched, generated, or derived without fabrication.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
+- Neurotechnology
+- Neural Interface
+- Electromyography
+- Wearables
+- Human-Computer Interaction
+- Augmented Reality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +58,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.ctrl-labs.com
+- type: GitHubOrganization
+  url: https://github.com/ctrl-labs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
