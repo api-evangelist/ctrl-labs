@@ -37,7 +37,7 @@ x-enrichment-note: 'Defunct as an independent company; absorbed into Meta Realit
   live website (ctrl-labs.com serves only a static memorial page via CloudFront), no public API, no
   first-party SDK/package (npm/PyPI none; the github.com/ctrl-labs org holds only archived third-party
   tooling forks). No API artifacts could be searched, generated, or derived without fabrication.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
