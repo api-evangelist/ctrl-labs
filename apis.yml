@@ -67,6 +67,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/facebook/
+  name: Facebook
+  x-relationship: acquired
+  x-evidence: "In fall 2019 CTRL-labs was acquired by Facebook and folded into Facebook (now Meta) Reality Labs, where the technology became the basis of Meta's neuromotor wristband for AR glasses (detailed in a July 2025 Nature paper)."
 - type: Website
   url: https://www.ctrl-labs.com
 - type: GitHubOrganization
